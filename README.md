@@ -1,2 +1,56 @@
-# sign_detection-using-opencv
-A simple detection model made to read hand signs and to represent them as the English alphabet
+✋ Hand Gesture Recognition using MediaPipe and OpenCV
+
+This project demonstrates real-time hand gesture recognition using MediaPipe and OpenCV.
+It detects and tracks hand landmarks through a webcam feed, processes them into feature points, and predicts gestures using a trained Random Forest Machine Learning model.
+
+🧩 Overview
+
+The system captures hand movements via webcam, identifies 21 hand landmarks using MediaPipe, and classifies the gestures into predefined categories.
+It provides an efficient, accurate, and real-time gesture recognition experience.
+
+⚙️ Features
+
+✅ Real-time hand detection and tracking
+✅ Live gesture prediction using a trained model
+✅ Bounding box and gesture labels displayed on screen
+✅ Smooth performance and minimal latency
+
+🧠 Technologies Used
+
+🟦 Python 3
+📸 OpenCV – Video capture and visualization
+✋ MediaPipe – Hand landmark detection
+🔢 NumPy – Numerical feature processing
+📦 Pickle – Model storage and loading
+🌲 Scikit-learn – Random Forest classification
+
+📁 Folder Structure
+
+Hand_Gesture_Recognition/
+│
+├── model.p – Trained Random Forest model
+├── hand_gesture_recognition.py – Main Python script
+├── data/ – Dataset used for training (optional)
+└── README.md – Project documentation
+
+🚀 How to Run
+
+Clone this repository and open the project folder.
+
+Install the required libraries using
+pip install opencv-python mediapipe numpy scikit-learn
+
+Run the script with
+python hand_gesture_recognition.py
+
+The webcam will open and start detecting gestures in real time.
+
+Press SPACEBAR to exit the program.
+
+📊 Model Details
+
+Algorithm: Random Forest Classifier
+
+Input Features: 42 (21 landmarks × 2 coordinates)
+
+Recognized Gestures: A, B, L
