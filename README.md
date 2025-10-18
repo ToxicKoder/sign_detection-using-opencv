@@ -24,15 +24,6 @@ It provides an efficient, accurate, and real-time gesture recognition experience
 📦 Pickle – Model storage and loading
 🌲 Scikit-learn – Random Forest classification
 
-📁 Folder Structure
-
-Hand_Gesture_Recognition/
-│
-├── model.p – Trained Random Forest model
-├── hand_gesture_recognition.py – Main Python script
-├── data/ – Dataset used for training (optional)
-└── README.md – Project documentation
-
 🚀 How to Run
 
 Clone this repository and open the project folder.
@@ -40,8 +31,8 @@ Clone this repository and open the project folder.
 Install the required libraries using
 pip install opencv-python mediapipe numpy scikit-learn
 
-Run the script with
-python hand_gesture_recognition.py
+Run the script with all the files included as given
+test_classifier.py
 
 The webcam will open and start detecting gestures in real time.
 
