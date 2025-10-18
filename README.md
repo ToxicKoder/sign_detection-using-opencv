@@ -26,6 +26,8 @@ It provides an efficient, accurate, and real-time gesture recognition experience
 
 🚀 How to Run
 
+🔴IMPORTANT : FOR THE DATSET USE THE FILE "collect_images.py" TO CREATE THE DATASET ( THE FILE WILL RUN AND CREATE A 100 SAMPLES FOR THE 3 CASES AS IT IS TRAINED LIKE THAT)
+
 Clone this repository and open the project folder.
 
 Install the required libraries using
